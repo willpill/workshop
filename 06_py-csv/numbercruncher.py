@@ -9,15 +9,19 @@ import random
 import csv
 
 def readfile(f):
-    dictionary = {}
+    d = {}
     with open (f, 'r') as listfile:
         reader = csv.reader(listfile)
         next(reader)
         for row in reader:
             job = row[0]
             percent = float(row[1])
-            dictionary[job] = percent
+            d[job] = percent
             
-    print(dictionary)
+    print(d)
         
+        
+def sel(d):
+    return random.choices(d.keys(), weights=d.values())
+    
 readfile("occupations.csv")
