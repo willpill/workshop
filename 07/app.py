@@ -1,8 +1,12 @@
-# your heading here
+# Yinwei Zhang
+# Made in China + 1
+# k08 - Teardown - Using flask to output HTML.
+# 2024-9-23
+# Time Spent: 0.1 hours
 
 '''
 DISCO:
-<note any discoveries you made here... no matter how small!>
+As described in questions.
 
 QCC:
 0. Strangely it printed no hablo queso, which means nothing.
@@ -14,9 +18,7 @@ QCC:
  ...
 
 INVESTIGATIVE APPROACH:
-<Your concise summary of how
- you and your team set about
- "illuminating the cave of ignorance" here...>
+I learned that you can use flask to output and HTMl page from returning stuff in python.
 '''
 
 
