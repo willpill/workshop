@@ -5,6 +5,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/03_py" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/04_rando-dict" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05_bitstream" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06_py-csv" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

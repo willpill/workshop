@@ -15,13 +15,17 @@ def readfile(f):
         next(reader)
         for row in reader:
             job = row[0]
+            if job == "Total":
+                continue
             percent = float(row[1])
             d[job] = percent
-            
-    print(d)
+    return d
         
         
 def sel(d):
-    return random.choices(d.keys(), weights=d.values())
+    return random.choices(list(d.keys()), weights=d.values(), k=1)[0]
+#Find all dict keys and then convert that into a list.
+#Then set the weights of random selection with the list of percentages
+#Select one thing, only the first element to remove the ['']
     
-readfile("occupations.csv")
+print(sel(readfile("occupations.csv")))
