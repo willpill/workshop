@@ -11,7 +11,7 @@ As described in questions.
 QCC:
 0. Strangely it printed no hablo queso, which means nothing.
 1. I can make it ouptut HTML and javascript to display a pretty website.
-2. It needs to HTML doctype, HTMl or body or head tag.
+2. It needs not HTML doctype, HTMl or body or head tag.
 3. 
 4. 
 5. 
