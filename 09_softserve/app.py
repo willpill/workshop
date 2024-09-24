@@ -7,6 +7,9 @@
 
 import random
 import csv
+from flask import Flask
+
+app = Flask(__name__)
 
 def readfile(f):
     d = {}
@@ -24,8 +27,12 @@ def readfile(f):
         
 def sel(d):
     return random.choices(list(d.keys()), weights=d.values(), k=1)[0]
-#Find all dict keys and then convert that into a list.
-#Then set the weights of random selection with the list of percentages
-#Select one thing, only the first element to remove the ['']
-    
-print(sel(readfile("occupations.csv")))
+
+@app.route("/")
+
+def page():
+    return sel(readfile("occupations.csv"))
+
+if __name__ == "__main__":
+    app.debug = True
+    app.run()
