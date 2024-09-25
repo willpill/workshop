@@ -31,7 +31,19 @@ def sel(d):
 @app.route("/")
 
 def page():
-    return sel(readfile("occupations.csv"))
+    occ = sel(readfile("occupations.csv"))
+    code = """
+    <!DOCTYPE html>
+    <html>
+      <body>
+            <h1>This time: """ + occ + """
+            <h2>Occupations</h2>
+    """
+    for a, b in readfile("occupations.csv").items():
+        code += "<li>" + a + ": " + str(b) + "</li>"
+
+    code += "</body></html>"
+    return code
 
 if __name__ == "__main__":
     app.debug = True
