@@ -1,7 +1,7 @@
 # Yinwei Zhang
 # China Rats Plus One
 # SoftDev
-# <randomDevos/Python Dictionaries/Function that picks a random key from a dictionary, then pick a random element from the list corresponding to the key.>
+# K04 <randomDevos/Python Dictionaries/Function that picks a random key from a dictionary, then pick a random element from the list corresponding to the key>
 # 2024-9-14
 # Time Spent : 1 Hour
 import random

@@ -7,8 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/04_rando-dict" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/05_bitstream" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/06_py-csv" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/07" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/09_softserve" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08_teardown" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />

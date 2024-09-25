@@ -1,7 +1,7 @@
 # Yinwei Zhang
 # China Rats Plus One
 # SoftDev
-# <K09: CSV file parsing, flask, displaying to HTML>
+# K09 <CSV file parsing, flask, displaying to HTML>
 # 2024-9-24
 # Time Spent : 0.5 Hours
 

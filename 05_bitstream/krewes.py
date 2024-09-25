@@ -1,7 +1,7 @@
 # Yinwei Zhang
 # China Rats Plus One
 # SoftDev
-# <K05: Read file, parse list and random selection>
+# K05 <Read file, parse list and random selection>
 # 2024-9-18
 # Time Spent : 0.5 Hours
 
