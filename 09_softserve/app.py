@@ -38,7 +38,7 @@ def page():
       <body>
             <p>China Rats Plus One with Jackie, Yinwei, Wen. Traveling team with Yinwei, Endrit, Raymond.</p>
             <h1>This time: """ + occ + """
-            <h2>Occupations</h2>
+            </h1><h2>Occupations</h2>
     """
     for a, b in readfile("occupations.csv").items():
         code += "<li>" + a + ": " + str(b) + "</li>"
