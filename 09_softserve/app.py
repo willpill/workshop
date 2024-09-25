@@ -1,8 +1,8 @@
 # Yinwei Zhang
 # China Rats Plus One
 # SoftDev
-# <K06: CSV file parsing>
-# 2024-9-19
+# <K09: CSV file parsing, flask, displaying to HTML>
+# 2024-9-24
 # Time Spent : 0.5 Hours
 
 import random
@@ -36,6 +36,7 @@ def page():
     <!DOCTYPE html>
     <html>
       <body>
+            <p>China Rats Plus One with Jackie, Yinwei, Wen. Traveling team with Yinwei, Endrit, Raymond.</p>
             <h1>This time: """ + occ + """
             <h2>Occupations</h2>
     """
