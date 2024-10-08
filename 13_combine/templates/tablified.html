@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <head>
+        <title>Occupations</title>
+    </head>
+
+    <body>
+    <h1>Random Occupation: {{selected}}</h1>
+    <h2>Occupations Table</h2>
+
+    <table>
+        <tr>
+            <th>Job</th>
+            <th>Percentage</th>
+            <th>Link</th>
+        </tr>
+        {%for job, item in occupations.items()%}
+        <tr>
+            <td>{{job}}</td>
+            <td>{{item.percent}}%</td>
+            <td><a href="{{item.link}}">Learn More...</a></td>
+        </tr>
+        {%endfor%}
+    </table>
+
+    </body>
+</html>

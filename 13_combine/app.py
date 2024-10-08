@@ -7,7 +7,7 @@
 
 import random
 import csv
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -21,30 +21,26 @@ def readfile(f):
             if job == "Total":
                 continue
             percent = float(row[1])
-            d[job] = percent
+            link = row[2]
+            d[job] = {"percent": percent, "link": link}
     return d
         
         
 def sel(d):
-    return random.choices(list(d.keys()), weights=d.values(), k=1)[0]
+    jobs = []
+    percentages = []
+    for job in d:
+        jobs.append(job)
+        percentages.append(d[job]["percent"])
+    return random.choices(jobs, weights=percentages, k=1)[0]
 
 @app.route("/")
 
 def page():
-    occ = sel(readfile("occupations.csv"))
-    code = """
-    <!DOCTYPE html>
-    <html>
-      <body>
-            <p>China Rats Plus One with Jackie, Yinwei, Wen. Traveling team with Yinwei, Endrit, Raymond.</p>
-            <h1>This time: """ + occ + """
-            </h1><h2>Occupations</h2>
-    """
-    for a, b in readfile("occupations.csv").items():
-        code += "<li>" + a + ": " + str(b) + "</li>"
-
-    code += "</body></html>"
-    return code
+    allocc = readfile("data/occupations.csv")
+    occ = sel(allocc)
+    print (occ)
+    return render_template("tablified.html", occupations=allocc, selected=occ)
 
 if __name__ == "__main__":
     app.debug = True
