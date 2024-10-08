@@ -41,6 +41,8 @@ PROTIP: Insert your own in-line comments
 
 @app.route("/") #, methods=['GET', 'POST'])
 def disp_loginpage():
+    ###These print to the terminal
+    #print(testmod0.goo())
     #print("\n\n\n")
     #print("***DIAG: this Flask obj ***")
     #print(app)
