@@ -1,3 +1,10 @@
+# Yinwei Zhang, Princeton, Ziyad
+# Smelly Lobotomy
+# SoftDev
+# K15 <Flask Forms, GET, POST>
+# 2024-10-8
+# Time Spent : 2 Hours
+
 from flask import Flask, request, render_template
 
 app = Flask(__name__)

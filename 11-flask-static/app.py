@@ -1,6 +1,9 @@
 # Yinwei Zhang
-# SoftDev
-# Sep 2024
+# Made in China + 1
+# K11 Static Folder
+# 2024-9-26
+# Time Spent: 1 hour
+
 
 # DEMO
 # basics of /static folder

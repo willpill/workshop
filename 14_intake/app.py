@@ -1,4 +1,4 @@
-# Clyde 'Thluffy' Sinclair
+# Yinwei Zhang
 # SoftDev
 # October 2024
 
