@@ -12,6 +12,8 @@ h1 {
     color: rgb(230, 230, 230);
     line-height: 10px;
     font-weight: 400;
+    font-family: "aktiv-grotesk-extended", sans-serif;
+    text-transform: uppercase;
 }
 
 h2 {
