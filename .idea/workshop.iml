@@ -11,6 +11,9 @@
       <sourceFolder url="file://$MODULE_DIR$/08_teardown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11-flask-static" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/12_flask-ninja" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13_combine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14_intake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15_flask-forms" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
