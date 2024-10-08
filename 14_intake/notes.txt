@@ -1,24 +1,16 @@
 Yinwei Zhang
 
 DISCO:
-The print statement in testmod0.py automatically runs when importing the module
-Printing app shows the Flask object
-Printing request shows the server address where the HTML is hosted
+The print statement in testmod0.py automatically runs when importing the module.
+Printing app shows the Flask object.
+Printing request shows the server address where the HTML is hosted.
 I believe request.args shows the arguments passed to the website, but since no arguments were passed, it printed an empty array []
-Printing request.args['username'] causes an error because no username argument was passed to the HTML template
-I was able to run the goo function from testmod0 by printing it in the console
+Printing request.args['username'] causes an error because no username argument was passed to the HTML template.
+I was able to run the goo function from testmod0 by printing it in the console.
 -----------------------------------------------------------------------
-
 
 Q/C/C:
 What does methods = ['GET', 'POST'] in app.route do? Does it matter?
 How can I get the other function in testmod0 to print?
 How can I avoid importing the file but still let app.py access the contents of testmod0.py? I tried test = testmod0(), but it didn’t work.
------------------------------------------------------------------------
-
-
-OTHER?
-* 
-* 
-* 
 -----------------------------------------------------------------------
