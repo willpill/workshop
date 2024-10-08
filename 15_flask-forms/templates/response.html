@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Response</title>
+    <link href="{{url_for('static', filename='styles.css')}}" rel="stylesheet" type="text/css">
+    <link href="https://use.typekit.net/gma7sba.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Welcome home, {{username}}!</h1>
+  <div style="width: 100%; height: 1px; background-color: darkslategray; margin-top:20px"></div>
+  <p>Request Method: <b>{{request}}</b></p>
+  <p>GET is used to request data from the page, and the contents of the request are shown in the URL preceding a ? mark.
+    On the other hand, POST is used to submit data directly through the request, not being visible in the URL.
+  </p>
+  <p>
+    POST requests,
+    while repeated, prompts "The page that you're looking for used information that you entered.
+    Returning to that page might cause any action you took to be repeated." This does not happen to GET.
+  </p>
+
+  <div style="width: 100%; height: 1px; background-color: darkslategray; margin-top:20px"></div>
+  <p>Team Smelly Lobotomy</p>
+  <p>Yinwei, Ziyad, Princeton</p>
+
+  <a href="/">Take Me Home</a>
+</body>
+</html>

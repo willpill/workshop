@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link href="{{url_for('static', filename='styles.css')}}" rel="stylesheet" type="text/css">
+    <link href="https://use.typekit.net/gma7sba.css" rel="stylesheet">
 </head>
-<body>
+
+<body style="display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;">
+<div>
     <h1>Team Smelly Lobotomy</h1>
-    <p>Yinwei, Ziyad, Princeton</p>
+    <h2>Yinwei, Ziyad, Princeton</h2>
 
-    <form action="/greet" method="POST">
-        <label for="username">Name</label>
-        <input type="text" id="username" name="username" required>
-        <button type="submit">Post</button>
-    </form>
+    <div style="display: flex; gap: 40px;">
+        <form action="/greet" method="POST">
+            <div>
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username" required>
+            </div>
 
-    <form action="/greet" method="GET">
-        <button type="submit">Get</button>
-    </form>
+            <button type="submit">Submit with POST</button>
+        </form>
+
+        <form action="/greet" method="GET">
+            <div>
+                <label for="username">Name</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <button type="submit">Submit with GET</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
