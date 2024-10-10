@@ -31,9 +31,9 @@ def greetings_page():
 
 @app.route('/logout', methods=['GET'])
 def logout():
-    logout_page = make_response(render_template('logout.html'))
-    logout_page.delete_cookie('username')
-    return logout_page
+    logout_response = make_response(render_template('logout.html'))
+    logout_response.delete_cookie('username')
+    return logout_response
 
 if __name__ == '__main__':
     app.debug = True
