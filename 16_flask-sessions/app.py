@@ -1,4 +1,4 @@
-# Yinwei Zhang, Princeton, Ziyad
+# Yinwei Zhang, Princeden, Ziyad
 # Smelly Lobotomy
 # SoftDev
 # K16 <Flask Forms, Cookies>
