@@ -3,7 +3,11 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/15_flask-forms_extra/static" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/16_flask-sessions/static" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/16_flask-sessions_extra/static" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/18_livestyle/static" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/19_db0/static" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -14,6 +18,10 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/16_flask-sessions/templates" />
+        <option value="$MODULE_DIR$/16_flask-sessions_extra/templates" />
+        <option value="$MODULE_DIR$/15_flask-forms_extra/templates" />
+        <option value="$MODULE_DIR$/18_livestyle/templates" />
+        <option value="$MODULE_DIR$/19_db0/templates" />
       </list>
     </option>
   </component>
