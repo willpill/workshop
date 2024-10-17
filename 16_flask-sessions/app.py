@@ -1,5 +1,5 @@
-# Yinwei Zhang, Princeden, Ziyad
-# Smelly Lobotomy
+# Yinwei Zhang, Wen, Jackie
+# Made in China + 1
 # SoftDev
 # K16 <Flask Forms, Cookies>
 # 2024-10-8
