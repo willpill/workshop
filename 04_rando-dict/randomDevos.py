@@ -22,7 +22,7 @@ dict1 = {
 }
 
 
-def randomDevos(dict1):
+def random_devos(dict1):
     keys = list(dict1.keys())
     key = random.randint(0, len(keys) - 1)  # Select index randomly from the keys list
     index = keys[key]
@@ -32,4 +32,4 @@ def randomDevos(dict1):
 
 
 for i in range(20):
-    print(randomDevos(dict1))
+    print(random_devos(dict1))

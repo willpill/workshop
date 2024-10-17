@@ -12,7 +12,7 @@ body {
 .header {
     background-color: #BEBEBE;
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 
 .header h1 {
@@ -38,7 +38,7 @@ body {
 }
 
 .nav h4 {
-    margin: 0px;
+    margin: 0;
 }
 
 .main {
@@ -54,5 +54,5 @@ body {
     color: #7c7c7c;
     padding: 10px;
     font-size: 0.7em;
-    margin-top: 0px;
+    margin-top: 0;
 }

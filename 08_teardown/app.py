@@ -4,7 +4,7 @@
 # 2024-9-23
 # Time Spent: 0.1 hours
 
-'''
+"""
 DISCO:
 We ran this program and the return value is shown in our local server webpage.
 
@@ -17,7 +17,7 @@ QCC:
 INVESTIGATIVE APPROACH:
 We used our existing knowledge of the terminal and HTML to understand the basics flask.
 I learned that you can use flask to output and HTMl page from returning things in python.
-'''
+"""
 
 
 from flask import Flask
